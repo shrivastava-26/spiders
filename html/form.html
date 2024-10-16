@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <!-- Registaration form -->
+         <h2>Form Registration</h2>
+
+         <!-- fname, lname, email, password, dob, age, select gender, reset and submit buttons -->
+
+         <!-- form -->
+          <form action="">
+
+            <!-- attributes to included -->
+            <!-- type, id, name, value, required {value is used to provide default value in form }  [NAME IS REQUIRED TO SEND DATA TO SERVER]-->
+              <!-- for from label and id from input tag should be connceted -->
+
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="first" required><br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="last"><br><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="mail" required><br><br>
+
+            <label for="password">password</label>
+            <input type="text" id="password" name="pass" required><br><br>
+
+            <label for="dob">DOB</label>
+            <input type="text" id="dob" name="date_0f_birth" required><br><br>
+
+            <label for="age">Age</label>
+            <input type="text" id="age" name="age"><br><br>
+
+            <!-- select gender -->
+             <p>Select gender</p>
+             <input type="radio" id="male" name="gender" value="male" required><label for="male"> Male</label>
+            <input type="radio" id="female" name="gender" value="female" required><label for="female"> Female</label>
+            <input type="radio" id="others" name="gender" value="Others" required><label for="others"> Others</label> <br><br>
+
+            <!-- checkbox -->
+             <div>
+             <label for="tech">HTML</label>
+            <input type="checkbox" id="tech" name="tech1" required value="html">
+
+             <label for="tech2">CSS</label>
+            <input type="checkbox" id="tech2" name="tech2" required value="html">
+
+             <label for="tech3">JS</label>
+            <input type="checkbox" id="tech3" name="tech3" required value="html"><br> <br>
+            </div>
+
+            <!-- select tag  -->
+             <select name="country" id="" required>
+                <option value="">Select country</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="japan">Japan</option>
+
+             </select><br><br>
+
+            <!-- pre tag -->
+
+
+             <!-- buttons -->
+              <button type="submit" >Submit</button>
+              <button type="reset">Reset</button>
+
+          </form>
+
+</body>
+</html>
