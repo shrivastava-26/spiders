@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+/* Individual box sizes and animations */
+.box1 {
+    width: 500px;
+    height: 500px;
+    background-color: azure;
+    animation: toggle 10s infinite 0s;
+}
+
+.box2 {
+    width: 400px;
+    height: 400px;
+    background-color: paleturquoise;
+    animation: toggle 10s infinite 2s;
+    /* Delayed 2 seconds */
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    background-color: lightblue;
+    animation: toggle 10s infinite 4s;
+    /* Delayed 4 seconds */
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation: toggle 10s infinite 6s;
+    /* Delayed 6 seconds */
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: toggle 10s infinite 8s;
+    /* Delayed 8 seconds */
+}
+
+/* Keyframes to handle visibility and opacity */
+@keyframes toggle {
+
+    0%,
+    20% {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    20%,
+    40% {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    40%,
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}

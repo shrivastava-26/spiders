@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+#id{
+    border-radius: 50%;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.parent-nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.featured-head{
+    display: flex;
+
+}
+
+#icons{
+    display: flex;
+    gap: 20px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-search{
+    display: flex;
+    gap: 20px;
+}
+
+#gol-pic{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -60px;
+    justify-content: flex-start;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+#cover-controller{
+    display: flex;
+    flex-direction: column;
+    /* margin: 0px 100px 0 100px; */
+    /* padding:0px 100px 0 100px ; */
+
+}
+
+.heading{
+    display: flex;
+}

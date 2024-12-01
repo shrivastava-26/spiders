@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+        integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        /* Container Styling */
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 60vh;
+            /* min-width: 50vw; */
+            /* background-color: #f8f9fa; */
+            margin-top: 5%;
+        }
+
+        /* Heading and Close Button */
+        .heading {
+            width: 80%;
+            max-width: 25rem;
+            background-color: #fff;
+            padding: 1.25rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .nav h2 {
+            font-size: 2rem;
+            color: #555;
+        }
+
+        .close-button {
+            border: none;
+            width: 1.25rem;
+            height: 1.25rem;
+            cursor: pointer;
+            background: transparent;
+            font-size: 1.25rem;
+            color: #555;
+        }
+
+        /* Input Container */
+        .input-container {
+            display: flex;
+            align-items: center;
+            border: 0.06rem solid #ddd;
+            padding: 0.3rem 0.6rem;
+            border-radius: 0.3rem;
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .input-container img {
+            margin-right: 0.5rem;
+            width: 1.25rem;
+        }
+
+        .input-container select,
+        .input-container input {
+            border: none;
+            outline: none;
+            font-size: 1rem;
+        }
+
+        .input-container select {
+            width: 15%;
+            background: transparent;
+            margin-right: 0.3rem;
+        }
+
+        .input-container input {
+            flex: 1;
+        }
+
+        /* Buttons Styling */
+        #btn,
+        .email-button {
+            color: #fff;
+            background-color: #d9534f;
+            border: none;
+            border-radius: 0.3rem;
+            width: 100%;
+            padding: 0.6rem;
+            margin-top: 0.6rem;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .or {
+            text-align: center;
+            font-weight: bold;
+            margin: 1rem 0;
+            font-size: 1rem;
+        }
+
+        /* Create Account Link */
+        .create {
+            text-align: center;
+            margin-top: 1rem;
+            font-size: 1rem;
+        }
+
+        .create a {
+            color: #d9534f;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Media Queries */
+        @media (max-width: 48em) {
+
+            /* 768px */
+            .heading {
+                width: 95%;
+            }
+
+            .nav h2 {
+                font-size: 1.5rem;
+            }
+
+            #btn,
+            .email-button {
+                font-size: 1rem;
+                padding: 0.5rem;
+            }
+        }
+
+        @media (max-width: 30em) {
+
+            /* 480px */
+            .nav h2 {
+                font-size: 1.3rem;
+            }
+
+            #btn,
+            .email-button {
+                font-size: 0.9rem;
+                padding: 0.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <!-- Login Page -->
+        <div class="heading">
+            <div class="nav">
+                <h2>Login</h2>
+                <button class="close-button">X</button>
+            </div>
+
+            <!-- Input Container -->
+            <div class="input-container">
+                <img src="https://b.zmtcdn.com/images/flags_z10/in.png?output-format=webp" alt="India Flag">
+                <select>
+                    <option value="+91">+91</option>
+                    <option value="+1">+1 USA</option>
+                    <option value="+971">+971 UAE</option>
+                </select>
+                <span>|</span>
+                <input type="text" placeholder="Phone">
+            </div>
+
+            <!-- Buttons -->
+            <button id="btn">Send One Time Password</button>
+            <div class="or">or</div>
+            <button class="email-button"><i class="fa fa-envelope"></i> Continue with Email</button>
+
+            <!-- Create Account Link -->
+            <div class="create">
+                <span>New to Zomato?</span>
+                <a href="#">Create account</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

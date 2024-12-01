@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .div1{
+            border: 2px solid blue;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 18;
+            
+        }
+
+         #div2{
+            border: 2px solid blue;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 18;
+            
+        }
+
+         .div3{
+            border: 2px solid blue;
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            line-height: 18;
+            
+        }
+
+        .parent{
+            display: flex;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    
+    
+<!-- 
+    <h2 id="hello">Hello Prince</h2>
+    <h2 class="hii"></h2>
+     -->
+
+     <!-- <div style="display: flex; justify-content: center; align-items: center;"> -->
+        <!-- <button onclick="color()">click me</button>
+        
+        <button ondblclick="color2()"> green button</button> -->
+        <!-- <button type="submit" onsubmit="color2()">events</button> -->
+        
+        
+        <!--! keyboards events  -->
+<!--         
+        <input type="text" onkeydown="color()" onkeyup="color2()">
+        
+        
+        <!-- <button onmousedown="color()" onmouseup="color2()">Mouse</button>
+        
+        <h2 onmousemove="color()" onmouseout="color2()">hello</h2>
+        
+        <button onmouseenter="color()" onmouseleave="color2()">Mouse</button> --> 
+
+
+        <!-- ! difference between mouseEnter, onmousemove and mouseover -->
+        <div class="parent">
+            <div class="div1" onmouseenter="mouseEnter()">
+                div 1
+            
+            </div>
+            
+            <div id="div2">
+                div 1
+            
+            </div>
+            
+            <div class="div3">
+                div 1
+            
+            </div>
+
+        </div>
+        
+
+    <script src="./events.js"></script>
+</body>
+</html>

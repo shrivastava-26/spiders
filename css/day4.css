@@ -1,0 +1,75 @@
+
+
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: maroon;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(red green);
+
+}
+
+
+
+.box3{
+     width: 200px;
+     height: 200px;
+     background-image:radial-gradient(red blue);
+}
+
+.box4{
+    background-image: repeating-linear-gradient( red 0 30% blue 30% 70%  green 70% 100%);
+    width: 200px;
+    height: 200px;
+}
+
+.box5{
+    width: 200px;
+    height: 200px;
+    background-image: repeating-radial-gradient(red 0 30% , blue 30% 60% , green 60% 100%);
+}
+
+.box6{
+    width: 200px;
+    height: 200px;
+    background-image: repeating-linear-gradient( red 0 40% blue 40% 80% orange 80% 100%);
+}
+
+.box7{
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(red blue);
+}
+
+
+.box8{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/13/17/10/mushroom-8313142_1280.jpg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.box9{
+    width: 30vw;
+    height: 30vh;
+    font-size: 2em;
+    border: 2px solid red;
+    border-radius: 3px;
+}
+
+.box10{
+    width: 50%;
+    height: 80%;
+    font-size: 2em;
+    border: 3px dotted blue;
+    border-radius: 20px 10px 3px ;
+
+    /* border radious: 25px         30px       40px           50px */
+    box-shadow: ;    
+     
+}

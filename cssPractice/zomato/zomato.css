@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+        background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 400px;
+        position: relative;
+}
+
+
+.nav{
+
+    display: flex;
+    justify-content: flex-end;
+    right: 20px;
+    position: absolute;
+    z-index:2;
+    margin-top: 10px;
+    color: white;
+}
+
+.nav li{
+    
+    display: inline-block;
+    margin-right:15px;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav li a:hover{
+    cursor: pointer;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+    color: white;
+    
+}
+
+.location i{
+    font-size: 25px;
+    margin-right: 10px;
+    padding-left: 5px;
+    color: red;
+}
+
+div .bar{
+    color:rgb(190, 180, 180);
+}
+.middle > h1{
+    font-style: italic;
+}
+
+.middle > p{
+    font-size: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    background-color: rgb(236, 241, 245);
+    border-radius: 5px;
+    width: 70%;
+    height: 45px;
+}
+
+
+.logo{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-left: 10px;
+    font-size: medium;
+    color: white;
+    
+}
+
+.location-dropdown {
+    border: none;
+     font-size:large;
+    cursor: pointer;
+    background-color: rgb(236, 241, 245);
+}
+
+.search-bar i{
+    color: rgba(126, 102, 102, 0.332);
+    height: 10px;
+}
+
+
+
+.input{
+    color: red;
+    border: none;
+    background-color: rgb(236, 241, 245);
+    width: 20em;
+}
+
+.cardContainers{
+    display: flex;
+    width: 100vw;
+    height: 100%;
+}
+
+.cardContainers > .cards{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.location > input::placeholder {
+    outline: none;
+    border: none;
+
+}
+
+.card-container{
+    display: flex;
+    width: 80vw;
+    height: 400px;
+    margin-left: 10%;
+    padding-top: 5%;
+    position: relative;
+}
+
+.cards{
+width: 30%;
+height:250px;
+margin-left: 20px;
+border: 1px solid gray;
+border-radius: 15px;
+}
+
+.cards> img{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+.cards> p {
+    margin-left: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.cards> h2{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.texts{
+    text-align: center;
+    font-size: 25px;
+}
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.image-collections{
+    display: flex;
+    width: 70%;
+
+}
+
+.image{
+    display: flex;
+    gap: 30px;
+    position: relative;
+
+}
+.image > p{
+
+}
+
+
+.text-cards{
+    width:90vw;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.cardss{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    height: 360px;
+}
+
+.card{
+    width: 30%;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(235, 227, 227);
+    box-shadow: 1px 1px 1px rgb(169, 165, 165);
+    
+}
+
+
+.link > a > i {
+    color: gray;
+    font-size: 10px;
+}
+
+.card> .contents> h4{
+    font-size: 20px;
+    color: rgb(112, 105, 105);
+    font-family:'Courier New', Courier, monospace;
+}
+
+.parent-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-link{
+    display: flex;
+}
+
+.cntnt>label{
+    padding: 10px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.btn > input::placeholder{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.dropdown-div{
+    margin: 30px;
+}
+
+.drop{
+    border: 1px solid rgb(236, 228, 228);
+    margin: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray ;
+}
+
+.drop > h3{
+    font-size: 20px;
+    color: rgb(78, 73, 73);
+    font-weight: 400;
+
+}
+
+.zomato{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+}
+
+.last{
+    /* border: 1px solid black; */
+}
+
+.links-ls{
+display: flex;
+justify-content: space-evenly;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.links > a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: gray;
+}

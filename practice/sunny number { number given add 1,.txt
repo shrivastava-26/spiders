@@ -1,0 +1,3 @@
+sunny number { number given add 1, if number is perfect square than it is sunny number}
+spy number	[if sum of number will be equals to product of indivual digits of that number]
+buzz number	[if last digit is 7 or number is divisible by 7]

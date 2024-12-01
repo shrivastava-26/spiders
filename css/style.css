@@ -1,0 +1,56 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/* grouping selector */
+h1, p{
+    color: darkorange;
+}
+
+p{
+    color: chartreuse;
+}
+
+
+/* priority of selectors */
+/* id > attribute > class > element selectors */
+
+.heading{
+    color: blue;
+    font-size: 30px;
+
+}
+
+#head{
+    color: brown;
+    font-size: large;
+}
+
+p[class="heading"] {
+    color: green;
+    font-size: xx-large;
+}
+
+p {
+    color: aqua;
+}
+
+button{
+    background-color:blue;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active{
+    background-color: green;
+}
+
+label::after{
+    content:'*';
+    color: red;
+}

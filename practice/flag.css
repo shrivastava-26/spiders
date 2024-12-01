@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+.body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.flag{
+    height: 120px;
+    width: 300px;
+    border: 1px solid black; 
+  
+}
+.red{
+    height: 33.3%;
+    border: 1px solid black;
+    background-color: rgb(255, 7, 7);
+}
+
+.white{
+    height: 33.3%;
+    border: 1px solid black;
+    position: relative;
+}
+
+.green{
+    height:33.3% ;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.chakra{
+    display: flex;
+    height: 38px;
+    width: 38px;
+    border: 2px solid black;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+
+
+.ashoka-chakra {
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(from 0deg,
+            #000080 0deg 15deg,
+            white 15deg 30deg);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2px #000080;
+}
+
+.ashoka-chakra::before {
+    content: '';
+    width: 75px;
+    height: 75px;
+    border: 2px solid #000080;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
