@@ -33,7 +33,7 @@ body {
     border-radius: 10px;
     width: 100%;
     height: 100%;
-    background-color: #9d5c5c;
+    background-color: #6cc085;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     position: absolute;
@@ -51,7 +51,7 @@ body {
     height: 250px;
     border-radius: 20px;
     margin-bottom: 15px;
-    background-color: #d5b7c5;
+    /* background-color: #d5b7c5; */
     object-fit: cover;
     transition: opacity 0.3s ease;
     position: relative;
@@ -72,7 +72,7 @@ body {
 .product-card h3 {
     font-size: 1.5rem;
     margin: 10px 0;
-    color: #ffffff;
+    color: rgb(188, 242, 9);
     transition: color 0.3s ease;
 }
 
@@ -80,13 +80,13 @@ body {
 .product-card p {
     font-size: 1rem;
     margin: 5px 0;
-    color: #eeeeee;
+    color:black;
 }
 
 /* Product price */
 .product-card p:nth-of-type(2) {
     font-weight: bold;
-    color: #ffffff;
+    color: rgb(38, 15, 213);
 }
 
 

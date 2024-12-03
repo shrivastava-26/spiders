@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+
+.place{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.inputs > input{
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+#btn{
+    width: 120px;
+    height: 45px;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(174, 202, 202);
+}
+
+#movie{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
+}
+
+.hello{
+    border: 2px solid green;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(226, 193, 242);
+
+}
+
+.hii{
+    border: 2px solid green;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(226, 193, 242);
+    
+}
+
+.hello > h2{
+    text-align: center;
+    position: relative;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: auto;
+}

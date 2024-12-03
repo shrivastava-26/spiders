@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 50vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: rgb(212, 221, 221);
+
+}
+
+#emoji{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.parent{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height: 80%;
+    box-shadow: 2px 2px 2px black;
+    background-color: antiquewhite;
+    position: relative;
+    left: 50%;
+    top: 10%;
+
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#show_pwd{
+    background-color: blue;
+}
+

@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7eb4ca;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#profile-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Card Container */
+#card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Individual Profile Card */
+.hello {
+    background-color: rgb(168, 203, 155);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hello:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Image */
+.hello img {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 10px 0;
+    border: 2px solid #007bff;
+}
+
+.hello h4 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.hello p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+.hello a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
